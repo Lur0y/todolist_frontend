@@ -1,0 +1,40 @@
+.side-menu{
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: var(--side-bar-width);
+    min-width: var(--min-side-bar-width);
+    height: 100vh;
+    background-color: var(--secondary-bacground-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+
+    .side-menu-buttons{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+
+        .side-menu-left-buttons{
+
+            width: 30%;
+
+        }
+
+        .side-menu-right-buttons{
+
+            width: 30%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+    
+    }
+
+}

@@ -1,0 +1,28 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.little-icon{
+
+    font-size: var(--little-icon-size);
+
+}
+
+.normal-icon{
+
+    font-size: var(--icon-size);
+
+}
+
+.hide{
+
+    display: none;
+    color: transparent;
+    background-color: transparent;
+
+}

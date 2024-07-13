@@ -1,0 +1,13 @@
+.todolist-container{
+
+    box-sizing: border-box;
+    width: calc(100vw - var(--side-bar-width));
+    margin-left: var(--side-bar-width);
+    min-height: 100vh;
+    background-color: var(--main-background-color);
+    color: var(--text-color);
+    padding-left: var(--pading-task-list-h);
+    padding-right: var(--pading-task-list-h);   
+    padding-top: var(--pading-task-list-v);
+
+}

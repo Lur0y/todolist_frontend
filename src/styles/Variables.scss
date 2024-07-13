@@ -1,0 +1,29 @@
+:root{
+
+    // Colores
+    --main-color: #773a2c;
+    --secondary-color: #773a2c; 
+    --main-background-color: #1E1E1E;
+    --secondary-bacground-color: #262727;
+    --text-color: white;
+    --hover-color: #332e2a;
+    --task-border-color: rgb(116, 116, 116);
+
+    // Tamaños
+    --min-side-bar-width: 210px;
+    --side-bar-width: 20.5vw;
+    --big-icon-size: 20px;
+    --icon-size: 16px;
+    --little-icon-size: 10px;
+    --pading-task-list-h: 140px;
+    --pading-task-list-v: 50px;
+    --margin-bottom-task-list: 20px;
+    --task-title-font-size: 14px;
+    --task-description-font-size: 10px;
+    --task-padding-v: 10px;
+
+    // Duración y tipo de las animaciones hover de iconos
+    --hover-icons-animation-duration: 0.2s;
+    --hover-icons-animation-type: ease-in;
+
+}

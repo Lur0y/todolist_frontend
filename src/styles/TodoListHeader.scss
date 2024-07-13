@@ -1,0 +1,48 @@
+.todo-list-header-container{
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    margin-bottom: var(--margin-bottom-task-list);
+
+    .todo-list-header-day{
+
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        cursor:context-menu;
+
+    }
+
+    .todolist-header-task-indicator{
+
+        width: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        i{
+
+            margin: 0;
+            padding: 0;
+            cursor:context-menu;
+
+        }
+
+        .todo-list-header-task-quantity{
+
+            font-size: smaller;
+            font-weight: 100;
+            margin: 0;
+            padding: 0;
+            cursor:context-menu;
+
+        }
+
+    }
+
+}
