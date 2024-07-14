@@ -1,6 +1,7 @@
 import './../styles/TodoList.scss';
 import TodoListHeader from './TodoListHeader.jsx';
 import TodoListTask from './TodoListTask.jsx';
+import TodoListAddTaskButton from './TodoListAddTaskButton.jsx';
 
 export default function TodoList(){
 
@@ -11,7 +12,7 @@ export default function TodoList(){
                 Elaborar el front de una lista de tareas en React
             </TodoListTask>
             <TodoListTask title="Crear un botón funcional de Agregar tarea" project="Proyecto personal" />
-            { /*<TodoListAddTaskButton /> */}
+            <TodoListAddTaskButton />
         </main>
     );
 
